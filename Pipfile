@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-marshmallow = "==0.14.0"
+click = "==7.1.2"
+greenlet = "==1.0.0"
+itsdangerous = "==1.1.0"
+marshmallow = "==3.11.1"
+six = "==1.15.0"
+Flask = "==1.1.2"
+Flask-SQLAlchemy = "==2.5.1"
+Flask-JWT-Extended = "==4.1.0"
+Jinja2 = "==2.11.3"
+MarkupSafe = "==1.1.1"
+PyJWT = "==2.1.0"
+SQLAlchemy = "==1.4.12"
+Werkzeug = "==1.0.1"
+numpy = "*"
+sklearn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

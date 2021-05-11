@@ -1,0 +1,18 @@
+body, html{
+    height:100%;
+    width:100%;
+    margin:0;         
+  }
+
+  body {
+    background-color: gray;
+    }
+
+  input[type=submit]{
+      background-color: rgb(41, 124, 145);
+      color: blanchedalmond;
+  }
+  
+  form {
+      margin:auto;/* nice thing of auto margin if display:flex; it center both horizontal and vertical :) */
+    }
