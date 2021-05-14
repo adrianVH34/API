@@ -152,12 +152,13 @@ def predecir():
         for dato in datos:
             listaFloat.append(float(dato))
         listaFloat = np.array(listaFloat)
+
         clf2 = pickle.load( open( "entrenado.p", "rb" ) )    
         predecir=clf2.predict(listaFloat.reshape(1,-1))
         if predecir == 1:
             m = "Posiblemente diabetico"
         else:
-            m = "Posiblemente NO diabetico"         
+            m = "Posiblemente NO ES diabetico"         
         
     return m
 
